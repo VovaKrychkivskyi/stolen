@@ -4,6 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+stolen.iml
+README.md
+package-lock.json
+.idea
+.gitignore
+public
 
 # testing
 /coverage
