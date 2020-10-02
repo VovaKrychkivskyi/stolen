@@ -1,13 +1,11 @@
-import React from 'react';
-
 import {getCopReact} from '../services/get-cops.service'
 
 async function AllCops() {
-
+  console.log(55);
   let newCops = await getCopReact();
 
   return (
-    newCops
+    console.log(22)
   )
 }
 

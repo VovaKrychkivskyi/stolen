@@ -16,7 +16,7 @@ function CreateUser () {
 
   const formSubmit = async (e) => {
     e.preventDefault();
-    let newBike = await createUserReact(values);
+    await createUserReact(values);
   }
 
   return (

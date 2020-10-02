@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="may-header navbar">
 
-      <img src={leftImg} className="may-header-logo"/>
+      <img src={leftImg} alt="leftImg" className="may-header-logo"/>
 
       <div className="may-header-links-wrapper">
         <div className="nav-item">
@@ -20,7 +20,7 @@ function Header() {
         </div>
       </div>
 
-      <img src={rightImg} className="may-header-logo"/>
+      <img src={rightImg} alt="rightImg" className="may-header-logo"/>
 
     </div>
   );

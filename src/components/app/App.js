@@ -19,9 +19,7 @@ function App() {
   return (
     <Router>
       <Header/>
-
       <Switch>
-
         <Route path='/users' exact>
         </Route>
 
@@ -32,22 +30,19 @@ function App() {
         </Route>
 
       </Switch>
-
       <Panel label="HEPL please" isOpenByDefault={false}>
         <CreateUser/>
         This's a place where you can write to police about your bike!
       </Panel>
 
       <Panel label="Online-process" isOpenByDefault={false}>
-        {/*<AllCops/>*/}
+        <AllCops/>
       </Panel>
 
       <Panel label="Volunteer" isOpenByDefault={false}>
         <CreateCop/>
         If you want to become Volunteer, there's right place!!! go ahead!!!
       </Panel>
-
-
       <Footer/>
     </Router>
   );
