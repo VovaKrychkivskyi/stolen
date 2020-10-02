@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {createCopReact} from '../services/cop.service'
 
 function CreateCop () {
