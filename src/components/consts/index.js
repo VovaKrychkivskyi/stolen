@@ -6,7 +6,7 @@ export const links = [{
   url: '/users'
 }, {
   name: 'Online-process',
-  url: '#'
+  url: '/api/cops/process'
 }, {
   name: 'Volunteer',
   url: '/api/cops'

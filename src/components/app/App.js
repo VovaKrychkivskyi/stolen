@@ -23,12 +23,15 @@ function App() {
       <Switch>
 
         <Route path='/users' exact>
+          <CreateUser/>
         </Route>
 
-        <Route path='/process' exact>
+        <Route path='/api/cops/process' exact>
+          <ProcessList/>
         </Route>
 
         <Route path='/api/cops' exact>
+          <CreateCop/>
         </Route>
 
       </Switch>
