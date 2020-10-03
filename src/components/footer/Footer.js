@@ -16,7 +16,6 @@ function Footer() {
         <img className="may-footer-social-media-icon" src={socialMediaIcons[2].src} alt={socialMediaIcons[2].alt}/>
       </div>
       </div>
-
     </div>
   );
 }

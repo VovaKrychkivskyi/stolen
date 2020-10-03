@@ -7,7 +7,7 @@ class Panel extends React.Component {
   constructor(props) {
     super(props);
 
-    const { isOpenByDefault } = props;
+    const {isOpenByDefault} = props;
 
     this.state = {
       isOpen: isOpenByDefault,
@@ -29,8 +29,8 @@ class Panel extends React.Component {
     });
   };
 
-  render () {
-    const { children, label } = this.props;
+  render() {
+    const {children, label} = this.props;
     const {isOpen} = this.state;
 
     return (
@@ -45,7 +45,7 @@ class Panel extends React.Component {
         {
           isOpen && (
             <div className="card-body">
-              { children }
+              {children}
             </div>
           )
         }
@@ -53,4 +53,5 @@ class Panel extends React.Component {
     );
   }
 }
+
 export default Panel;

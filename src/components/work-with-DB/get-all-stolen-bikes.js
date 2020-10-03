@@ -9,9 +9,10 @@ export default class BikeList extends React.Component {
   componentDidMount() {
     axios.get(`http://localhost:4999/users/all`)
       .then(res => {
-        const persons = res.data;
-        this.setState({persons});
-      })
+          const persons = res.data;
+          this.setState({persons});
+        }
+      )
   }
 
   render() {

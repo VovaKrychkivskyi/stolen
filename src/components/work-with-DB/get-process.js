@@ -9,9 +9,10 @@ export default class ProcessList extends React.Component {
   componentDidMount() {
     axios.get(`http://localhost:4999/api/cops/process`)
       .then(res => {
-        const persons = res.data;
-        this.setState({persons});
-      })
+          const persons = res.data;
+          this.setState({persons});
+        }
+      )
   }
 
   render() {

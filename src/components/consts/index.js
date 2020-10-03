@@ -1,7 +1,6 @@
 export const rightImg = 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQR4sPoGFrsSAMSUfR_N_yQV1r8OUiei7CszCPRevpu2K1OvgJ&usqp=CAU';
 export const leftImg = 'https://media.giphy.com/media/U2RhYqAEOmnXvLDNSX/giphy.gif';
 
-
 export const links = [{
   name: 'Users',
   url: '/users'
